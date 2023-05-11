@@ -1,0 +1,3 @@
+C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\complex_calculator.dir/objects.a
+C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\ar.exe qc CMakeFiles\complex_calculator.dir/objects.a @CMakeFiles\complex_calculator.dir\objects1
+C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\complex_calculator.dir/objects.a -Wl,--no-whole-archive -o complex_calculator.exe -Wl,--out-implib,libcomplex_calculator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\complex_calculator.dir\linkLibs.rsp

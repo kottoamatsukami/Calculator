@@ -1,0 +1,4 @@
+C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Enterprice\Documents\Programing\Projects\Calculator -B C:\Users\Enterprice\Documents\Programing\Projects\Calculator\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Enterprice/Documents/Programing/Projects/Calculator/cmake-build-debug
