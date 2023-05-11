@@ -1,7 +1,7 @@
 #pragma once
 
 #include "config.h"
-#include "Token.h"
+#include "token.h"
 
 typedef struct Stack {
     Token data[MAX_STACK_SIZE];

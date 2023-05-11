@@ -1,8 +1,9 @@
 #include "varibleManager.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "token.h"
 
-Complex* eval(Variable *var, int num_of_vars, Variable pool[num_of_vars])
+Complex* eval(Token *var, int num_of_vars, Variable pool[num_of_vars])
 {
     int i = 0;
     while (var->expression.requirement_vars[i] != '\0')
@@ -12,14 +13,15 @@ Complex* eval(Variable *var, int num_of_vars, Variable pool[num_of_vars])
     }
 
 
-
-
     Complex* res = (Complex*)malloc(sizeof(Complex));
 
 
 
     return res;
 }
+
+
+
 
 Variable create_variable(char *name, char *expression, int *num_of_vars, Variable pool[*num_of_vars])
 {
