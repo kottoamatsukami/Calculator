@@ -259,8 +259,6 @@ char* GetType(char* value)
         {  return "OPERATOR"; }
         if ((strcmp(value, "/") == 0))
         {  return "OPERATOR"; }
-        if ((strcmp(value, "=") == 0))
-        {  return "FUNCTION"; }
 
         // error
         printf("Error: unknown symbol: %s\n", value);
