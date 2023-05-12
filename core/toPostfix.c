@@ -36,7 +36,6 @@ void infix_to_postfix(char *infix, char *postfix)
             i++;
             continue;
         }
-
         InitializeToken(&token);
         if(isalnum(infix[i]))
         {
@@ -63,7 +62,11 @@ void infix_to_postfix(char *infix, char *postfix)
         }
         else
         {
-            if(infix[i] == '(')
+            if (infix[i] == '=') {
+                postfix[j++] = '=';
+                postfix[j++] = ' ';
+            }
+            else if(infix[i] == '(')
             {
                 token = CreateToken("OPERATOR", "(");
                 PushStack(&stack, &token);
@@ -146,7 +149,7 @@ int strIsAlpha(char *str)
 {
     for (int i = 0; i < strlen(str); i++)
     {
-        if (isalpha(str[i]) == 0)
+        if (isascii(str[i]) == 0)
         {
             return 0;
         }
@@ -226,6 +229,8 @@ char* GetType(char* value)
         { return "FUNCTION"; }
         if ((strcmp(value, "sin") == 0))
         { return "FUNCTION"; }
+        if ((strcmp(value, "sqrt") == 0))
+        {  return "FUNCTION"; }
         if ((strcmp(value, "log") == 0))  // log by 2
         {  return "FUNCTION"; }
         if ((strcmp(value, "ln") == 0))

@@ -128,30 +128,6 @@ complex_calculator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/build
 .PHONY : complex_calculator/fast
 
-core/Token.obj: core/Token.c.obj
-.PHONY : core/Token.obj
-
-# target to build an object file
-core/Token.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/Token.c.obj
-.PHONY : core/Token.c.obj
-
-core/Token.i: core/Token.c.i
-.PHONY : core/Token.i
-
-# target to preprocess a source file
-core/Token.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/Token.c.i
-.PHONY : core/Token.c.i
-
-core/Token.s: core/Token.c.s
-.PHONY : core/Token.s
-
-# target to generate assembly for a file
-core/Token.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/Token.c.s
-.PHONY : core/Token.c.s
-
 core/complex.obj: core/complex.c.obj
 .PHONY : core/complex.obj
 
@@ -175,6 +151,30 @@ core/complex.s: core/complex.c.s
 core/complex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/complex.c.s
 .PHONY : core/complex.c.s
+
+core/operations.obj: core/operations.c.obj
+.PHONY : core/operations.obj
+
+# target to build an object file
+core/operations.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/operations.c.obj
+.PHONY : core/operations.c.obj
+
+core/operations.i: core/operations.c.i
+.PHONY : core/operations.i
+
+# target to preprocess a source file
+core/operations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/operations.c.i
+.PHONY : core/operations.c.i
+
+core/operations.s: core/operations.c.s
+.PHONY : core/operations.s
+
+# target to generate assembly for a file
+core/operations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/operations.c.s
+.PHONY : core/operations.c.s
 
 core/stack.obj: core/stack.c.obj
 .PHONY : core/stack.obj
@@ -223,6 +223,30 @@ core/toPostfix.s: core/toPostfix.c.s
 core/toPostfix.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/toPostfix.c.s
 .PHONY : core/toPostfix.c.s
+
+core/token.obj: core/token.c.obj
+.PHONY : core/token.obj
+
+# target to build an object file
+core/token.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/token.c.obj
+.PHONY : core/token.c.obj
+
+core/token.i: core/token.c.i
+.PHONY : core/token.i
+
+# target to preprocess a source file
+core/token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/token.c.i
+.PHONY : core/token.c.i
+
+core/token.s: core/token.c.s
+.PHONY : core/token.s
+
+# target to generate assembly for a file
+core/token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\complex_calculator.dir\build.make CMakeFiles/complex_calculator.dir/core/token.c.s
+.PHONY : core/token.c.s
 
 core/utils.obj: core/utils.c.obj
 .PHONY : core/utils.obj
@@ -305,18 +329,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... complex_calculator
-	@echo ... core/Token.obj
-	@echo ... core/Token.i
-	@echo ... core/Token.s
 	@echo ... core/complex.obj
 	@echo ... core/complex.i
 	@echo ... core/complex.s
+	@echo ... core/operations.obj
+	@echo ... core/operations.i
+	@echo ... core/operations.s
 	@echo ... core/stack.obj
 	@echo ... core/stack.i
 	@echo ... core/stack.s
 	@echo ... core/toPostfix.obj
 	@echo ... core/toPostfix.i
 	@echo ... core/toPostfix.s
+	@echo ... core/token.obj
+	@echo ... core/token.i
+	@echo ... core/token.s
 	@echo ... core/utils.obj
 	@echo ... core/utils.i
 	@echo ... core/utils.s

@@ -158,20 +158,35 @@ CMakeFiles/complex_calculator.dir/core/varibleManager.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/complex_calculator.dir/core/varibleManager.c.s"
 	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\varibleManager.c -o CMakeFiles\complex_calculator.dir\core\varibleManager.c.s
 
-CMakeFiles/complex_calculator.dir/core/Token.c.obj: CMakeFiles/complex_calculator.dir/flags.make
-CMakeFiles/complex_calculator.dir/core/Token.c.obj: CMakeFiles/complex_calculator.dir/includes_C.rsp
-CMakeFiles/complex_calculator.dir/core/Token.c.obj: C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/Token.c
-CMakeFiles/complex_calculator.dir/core/Token.c.obj: CMakeFiles/complex_calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Enterprice\Documents\Programing\Projects\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/complex_calculator.dir/core/Token.c.obj"
-	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/complex_calculator.dir/core/Token.c.obj -MF CMakeFiles\complex_calculator.dir\core\Token.c.obj.d -o CMakeFiles\complex_calculator.dir\core\Token.c.obj -c C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\Token.c
+CMakeFiles/complex_calculator.dir/core/token.c.obj: CMakeFiles/complex_calculator.dir/flags.make
+CMakeFiles/complex_calculator.dir/core/token.c.obj: CMakeFiles/complex_calculator.dir/includes_C.rsp
+CMakeFiles/complex_calculator.dir/core/token.c.obj: C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/token.c
+CMakeFiles/complex_calculator.dir/core/token.c.obj: CMakeFiles/complex_calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Enterprice\Documents\Programing\Projects\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/complex_calculator.dir/core/token.c.obj"
+	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/complex_calculator.dir/core/token.c.obj -MF CMakeFiles\complex_calculator.dir\core\token.c.obj.d -o CMakeFiles\complex_calculator.dir\core\token.c.obj -c C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\token.c
 
-CMakeFiles/complex_calculator.dir/core/Token.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/complex_calculator.dir/core/Token.c.i"
-	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\Token.c > CMakeFiles\complex_calculator.dir\core\Token.c.i
+CMakeFiles/complex_calculator.dir/core/token.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/complex_calculator.dir/core/token.c.i"
+	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\token.c > CMakeFiles\complex_calculator.dir\core\token.c.i
 
-CMakeFiles/complex_calculator.dir/core/Token.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/complex_calculator.dir/core/Token.c.s"
-	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\Token.c -o CMakeFiles\complex_calculator.dir\core\Token.c.s
+CMakeFiles/complex_calculator.dir/core/token.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/complex_calculator.dir/core/token.c.s"
+	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\token.c -o CMakeFiles\complex_calculator.dir\core\token.c.s
+
+CMakeFiles/complex_calculator.dir/core/operations.c.obj: CMakeFiles/complex_calculator.dir/flags.make
+CMakeFiles/complex_calculator.dir/core/operations.c.obj: CMakeFiles/complex_calculator.dir/includes_C.rsp
+CMakeFiles/complex_calculator.dir/core/operations.c.obj: C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/operations.c
+CMakeFiles/complex_calculator.dir/core/operations.c.obj: CMakeFiles/complex_calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Enterprice\Documents\Programing\Projects\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/complex_calculator.dir/core/operations.c.obj"
+	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/complex_calculator.dir/core/operations.c.obj -MF CMakeFiles\complex_calculator.dir\core\operations.c.obj.d -o CMakeFiles\complex_calculator.dir\core\operations.c.obj -c C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\operations.c
+
+CMakeFiles/complex_calculator.dir/core/operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/complex_calculator.dir/core/operations.c.i"
+	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\operations.c > CMakeFiles\complex_calculator.dir\core\operations.c.i
+
+CMakeFiles/complex_calculator.dir/core/operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/complex_calculator.dir/core/operations.c.s"
+	C:\Users\Enterprice\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Enterprice\Documents\Programing\Projects\Calculator\core\operations.c -o CMakeFiles\complex_calculator.dir\core\operations.c.s
 
 # Object files for target complex_calculator
 complex_calculator_OBJECTS = \
@@ -181,7 +196,8 @@ complex_calculator_OBJECTS = \
 "CMakeFiles/complex_calculator.dir/main.c.obj" \
 "CMakeFiles/complex_calculator.dir/core/utils.c.obj" \
 "CMakeFiles/complex_calculator.dir/core/varibleManager.c.obj" \
-"CMakeFiles/complex_calculator.dir/core/Token.c.obj"
+"CMakeFiles/complex_calculator.dir/core/token.c.obj" \
+"CMakeFiles/complex_calculator.dir/core/operations.c.obj"
 
 # External object files for target complex_calculator
 complex_calculator_EXTERNAL_OBJECTS =
@@ -192,12 +208,13 @@ complex_calculator.exe: CMakeFiles/complex_calculator.dir/core/toPostfix.c.obj
 complex_calculator.exe: CMakeFiles/complex_calculator.dir/main.c.obj
 complex_calculator.exe: CMakeFiles/complex_calculator.dir/core/utils.c.obj
 complex_calculator.exe: CMakeFiles/complex_calculator.dir/core/varibleManager.c.obj
-complex_calculator.exe: CMakeFiles/complex_calculator.dir/core/Token.c.obj
+complex_calculator.exe: CMakeFiles/complex_calculator.dir/core/token.c.obj
+complex_calculator.exe: CMakeFiles/complex_calculator.dir/core/operations.c.obj
 complex_calculator.exe: CMakeFiles/complex_calculator.dir/build.make
 complex_calculator.exe: CMakeFiles/complex_calculator.dir/linkLibs.rsp
 complex_calculator.exe: CMakeFiles/complex_calculator.dir/objects1
 complex_calculator.exe: CMakeFiles/complex_calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Enterprice\Documents\Programing\Projects\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable complex_calculator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Enterprice\Documents\Programing\Projects\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable complex_calculator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\complex_calculator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,6 +1,6 @@
 #include "stack.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 
 void InitializeStack(Stack *stack)
 {
@@ -29,6 +29,7 @@ void PushStack(Stack *stk, Token *tk)
     else
     {
         printf("Stack overflow error, total amount of elements is: %d !\n", stk->top);
+        exit(-6);
     }
 }
 
@@ -44,7 +45,8 @@ Token PopStack(Stack *stk)
     else
     {
         printf("Stack is empty!\n");
-        return pelem;
+        exit(-5);
+        return pelem; // todo exit
     }
 }
 

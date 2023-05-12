@@ -78,16 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/Token.c">
-			<Option target="complex_calculator"/>
-		</Unit>
-		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/Token.h">
-			<Option target="complex_calculator"/>
-		</Unit>
 		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/complex.c">
 			<Option target="complex_calculator"/>
 		</Unit>
 		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/complex.h">
+			<Option target="complex_calculator"/>
+		</Unit>
+		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/operations.c">
+			<Option target="complex_calculator"/>
+		</Unit>
+		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/operations.h">
 			<Option target="complex_calculator"/>
 		</Unit>
 		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/stack.c">
@@ -100,6 +100,12 @@
 			<Option target="complex_calculator"/>
 		</Unit>
 		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/toPostfix.h">
+			<Option target="complex_calculator"/>
+		</Unit>
+		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/token.c">
+			<Option target="complex_calculator"/>
+		</Unit>
+		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/token.h">
 			<Option target="complex_calculator"/>
 		</Unit>
 		<Unit filename="C:/Users/Enterprice/Documents/Programing/Projects/Calculator/core/utils.c">

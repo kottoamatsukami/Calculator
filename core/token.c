@@ -12,6 +12,7 @@ void InitializeToken(Token *token)
     {
         token->type[i] = '\0';
     }
+
 }
 
 Token CreateToken(char *type, char *value)

@@ -5,6 +5,7 @@
 #include "varibleManager.h"
 #include <stdlib.h>
 
+
 int main(int argc, char* argv[])
 {
     int mode;  // 0 for release, 1 for debug
@@ -40,18 +41,31 @@ int main(int argc, char* argv[])
         Token token_pool[MAX_TOKEN_POOL_SIZE];
         int number_of_variables = 0;
         char infix[MAX_INFIX_SIZE],postfix[MAX_POSTFIX_SIZE];
+        // clear zeros
+        for (int i = 0; i < MAX_TOKEN_POOL_SIZE; i++)
+        {
+            token_pool[i].type[0] = '\0';
+        }
         clear_string(infix, MAX_INFIX_SIZE); clear_string(postfix, MAX_POSTFIX_SIZE);
         // Tokenizer
         int token_pool_id = 0;
         // Misc
-        create_variable("pi", "3.141592653589793", &number_of_variables, variable_pool);
-        create_variable("e", "2.718281828459045", &number_of_variables, variable_pool);
+        Token pi = CreateToken("NUMBER", "3.141592653589793");
+        Token e = CreateToken("NUMBER", "2.718281828459045");
+        create_variable("pi", &pi, &number_of_variables, variable_pool);
+        create_variable("e", &e, &number_of_variables, variable_pool);
+        precalculate(number_of_variables, variable_pool);
         // start echo
         while (1) {
             ret_arrow();
             gets(infix);
-            if (strcmp(infix, "exit") == 0) {
+            if (strcmp(infix, "exit") == 0)
+            {
                 break;
+            }
+            if  (strlen(infix) == 0)
+            {
+                continue;
             }
 
             infix_to_postfix(infix,postfix);
@@ -69,7 +83,9 @@ int main(int argc, char* argv[])
                 token_pool[token_pool_id] = CreateToken(GetType(tokenizer), tokenizer);
                 token_pool_id++;
             }
-
+            // precalculate previous variables
+            eval(token_pool, &number_of_variables, variable_pool);
+            precalculate(number_of_variables, variable_pool);
             // empty cache
             for (int i = 0; i < MAX_INFIX_SIZE; i++)
             {
@@ -79,6 +95,11 @@ int main(int argc, char* argv[])
             {
                 postfix[i] = '\0';
             }
+            for (int i = 0; i < MAX_TOKEN_POOL_SIZE; i++)
+            {
+                token_pool[i].type[0] = '\0';
+            }
+            token_pool_id = 0;
         }
     }
     else
